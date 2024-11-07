@@ -9,7 +9,7 @@ const PORT = 3000;
 
 // Define a route for the root URL ("/")
 app.get("/", (req, res) => {
-  res.send("Hello, World!");
+  res.send("Hi, World!");
 });
 
 // Start the server
